@@ -1,0 +1,857 @@
+  * {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+ }
+
+ .header li {
+     float: left;
+     list-style: none;
+     padding: 10px;
+     color: white;
+ }
+
+ .header ul {
+     margin-left: 60px;
+ }
+
+ .container {
+     background-color: rgb(255, 33, 99);
+     height: 50px;
+ }
+
+ .icon {
+     padding-left: 1000px;
+ }
+
+ .icon i {
+     padding: 10px;
+     color: white;
+ }
+
+ .wrapper1 {
+     background-image: url(./img/carousel-1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 109vh;
+     margin-top: -20px;
+ }
+
+ .navibar a {
+     padding: 28px;
+     list-style: none;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifq2a;
+     font-weight: 600;
+     font-size: 20px;
+     padding-top: 29px;
+ }
+
+ .navibar a:hover {
+     color: rgb(255, 102, 128);
+ }
+
+ .navibar a span {
+     color: rgb(255, 102, 128);
+ }
+
+ .navibar {
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+     font-size: x-large;
+     border-radius: 50px;
+     width: 1100px;
+     margin-left: 75px;
+ }
+
+ .navibar h1 span {
+
+     color: aqua;
+     font-size: 60px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .navibar h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(236, 67, 95);
+     margin: 7px 0px;
+ }
+
+ .text {
+     text-align: center;
+     padding-top: 200px;
+ }
+
+ .text p {
+     color: aliceblue;
+     font-weight: 900;
+     font-size: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-bottom: 20px;
+ }
+
+ .text h1 {
+     color: aliceblue;
+     font-weight: 900;
+     font-size: 70px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .text button {
+     background-color: rgb(252, 82, 111);
+     color: white;
+     padding: 15px;
+     border-radius: 50px;
+     border-style: none;
+     width: 200px;
+ }
+
+ .container1 {
+     padding-bottom: 150px;
+ }
+
+ .traditional {
+     width: 10;
+     padding-top: 100px;
+     padding-bottom: 60px;
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 900;
+     text-align: center;
+ }
+
+ .traditional hr {
+     margin-left: 500px;
+     margin-right: 500px;
+     border-width: 5px;
+     border-color: rgb(240, 106, 133);
+ }
+
+ .traditional h1 {
+     font-weight: 900;
+ }
+
+ .about {
+     display: flex;
+     justify-content: center;
+ }
+
+ .wrapper2 h1 {
+     text-align: center;
+     justify-content: center;
+     margin-left: 10px;
+ }
+
+ .about img {
+     width: 300px;
+     height: 400px;
+     border-radius: 10px;
+ }
+
+ .us h2 {
+     justify-content: center;
+     margin-left: 200px;
+     letter-spacing: 2px;
+     font-weight: 900;
+     font-size: 30px;
+     font-family: sans-serif;
+     padding: 10px;
+ }
+
+ .us p {
+     margin-left: 50px;
+     font-size: 25px;
+     letter-spacing: 1px;
+     font-weight: 800;
+     padding-bottom: 30px;
+ }
+
+ .us h4 {
+     letter-spacing: 1px;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     padding-left: 50px;
+ }
+
+ .feature {
+     justify-content: center;
+     margin-left: 50px;
+ }
+
+ .feature h2 {
+     text-align: center;
+     font-size: 30px;
+     font-weight: 900;
+     justify-content: center;
+     letter-spacing: 2px;
+     font-family: sans-serif;
+     padding: 10px;
+ }
+
+ .feature p {
+     margin-left: 5px;
+     letter-spacing: 1px;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+ }
+
+ .feature h3 {
+     font-family: sans-serif;
+     color: rgba(0, 0, 0, 0.685);
+ }
+
+ .feature h3 i {
+     color: rgb(0, 195, 255);
+     padding: 15px;
+     font-weight: bold;
+ }
+
+ .us button {
+     margin-left: 200px;
+     padding: 15px;
+     background-color: rgb(34, 185, 231);
+     color: white;
+     border-radius: 50px;
+     border-style: none;
+ }
+
+ .feature button {
+     margin-left: 100px;
+     padding: 15px;
+     background-color: rgb(255, 116, 209);
+     color: white;
+     border-radius: 50px;
+     border-style: none;
+ }
+
+ .btn3 {
+     padding-top: 30px;
+ }
+
+ .btn {
+     padding-top: 38px;
+ }
+
+ .container2 img {
+     width: 650px;
+     height: 400px;
+ }
+
+ .container2 {
+     background: #fd79d5;
+     height: 400px;
+ }
+
+ .right {
+     margin-top: -350px;
+     margin-left: 700px;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .pr {
+     background-color: aliceblue;
+     width: 100px;
+     height: 100px;
+     border-radius: 50px;
+     margin-left: 220px;
+ }
+
+ .pr h3 {
+     text-align: center;
+     color: rgb(104, 232, 241);
+     font-weight: 900;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-top: 28px;
+     font-size: 30px;
+ }
+
+ .right h1 {
+     font-weight: 900;
+     color: white;
+     font-size: 40px;
+     margin-top: 20px;
+ }
+
+ .right p {
+     font-size: 15px;
+     font-weight: 600;
+     color: white;
+     padding-top: 20px;
+ }
+
+ .right button {
+     background-color: rgb(34, 185, 231);
+     color: white;
+     border-radius: 50px;
+     border-style: none;
+     padding: 15px;
+     width: 120px;
+ }
+
+ .btn2 {
+     padding-top: 20px;
+
+ }
+
+ .best {
+     padding: 150px;
+
+ }
+
+ .best hr {
+     border-width: 5px;
+     border-color: rgb(240, 106, 133);
+     margin-right: 850PX;
+ }
+
+ .best h1 {
+     font-size: 40px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 900;
+ }
+
+ .ims {
+     display: flex;
+     margin-top: 80px;
+     justify-content: space-between;
+ }
+
+ .im1 img {
+     border: 15px solid white;
+     border-radius: 50%;
+     box-shadow: 1px 15px pink;
+ }
+
+ .im1 {
+     margin: 0px 60px;
+ }
+
+ .web {
+     margin: 40px 0px 0px 0px;
+ }
+
+ .web p {
+     padding: 10px;
+
+ }
+
+ .web a {
+     color: rgb(23, 205, 250);
+     margin-left: 50px;
+ }
+
+ .delicious {
+     padding: 100px;
+     text-align: center;
+ }
+
+ .delicious hr {
+     margin-left: 450px;
+     margin-right: 450px;
+     padding: 3px;
+     background-color: rgb(248, 83, 111);
+ }
+
+ .delicious h1 {
+     font-size: 40px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 900;
+ }
+
+ .s {
+     display: flex;
+ }
+
+ .s img {
+     height: 50vh;
+     width: 100%;
+ }
+
+ .picture hr {
+     margin-right: 90%;
+     padding: 3px;
+     background-color: rgb(248, 83, 111);
+ }
+
+ .picture h1 {
+     font-size: 50px;
+ }
+
+ .pic5 {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 100px;
+     margin-right: 100px;
+     padding-left: 20px;
+     align-items: center;
+ }
+
+ .pic img {
+     border-radius: 50%;
+     border: 15px solid rgb(240, 144, 160);
+     margin-top: -18px;
+     height: 140px;
+     width: 140px;
+ }
+
+ .pic h4 {
+     background-color: rgb(240, 144, 160);
+     text-align: center;
+     font-size: 30px;
+     color: rgb(255, 255, 255);
+     width: 65px;
+     height: 60px;
+     margin-left: 39px;
+     padding: 5px;
+     font-weight: 900;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .pic button {
+     background-color: skyblue;
+     border: none;
+     padding: 10px;
+     border-radius: 20px;
+     width: 150px;
+ }
+
+ .pic h3 {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     justify-content: center;
+ }
+
+ .pic5 button:hover {
+     color: black;
+     transition: .5s;
+     background: rgb(240, 93, 166);
+ }
+
+ .pic:hover {
+     background: skyblue;
+     transition: .5s;
+     border-radius: 5px;
+     transform: scale(1.1);
+     overflow: hidden;
+ }
+
+ .chefs hr {
+    padding: 5px;
+    margin: 4% 40% 0% 40%;
+    background-color: rgb(248, 83, 111)
+}
+ .food {
+     display: flex;
+ }
+
+ .chef1 {
+     text-align: center;
+ }
+
+ .chef1 img {
+     border-radius: 50%;
+     margin: 25px 60px;
+     border: 15px solid rgb(255, 116, 139);
+     height: 180px;
+     width: 180px;
+
+ }
+
+ .chef1 h3 {
+     font-size: 30px;
+     padding: 10px;
+ }
+
+ .chef1 h4 {
+     padding: 10px;
+ }
+
+ .chef1 i {
+     font-size: 20px;
+     border: 2px solid skyblue;
+     border-radius: 20px;
+     color: skyblue;
+     padding: 8px;
+ }
+
+ .client hr {
+     padding: 5px;
+     margin: 4% 40% 0% 40%;
+     background-color: rgb(248, 83, 111)
+ }
+
+
+
+ .client h1 {
+     font-size: 50px;
+     text-align: center;
+ }
+
+ .client i {
+     font-size: 90px;
+     color: rgb(248, 83, 111);
+     margin-left: 47%;
+ }
+
+ .client p {
+     padding: 15px;
+     text-align: center;
+     font-size: 25px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .client1 img {
+     margin-left: 46%;
+     border-radius: 50%;
+ }
+
+ .client1 h3 {
+     padding: 5px;
+     text-align: center;
+ }
+
+ .client1 h4 {
+     padding: 5px;
+     text-align: center;
+
+ }
+
+ .icon8 {
+     margin-left: 48%;
+     margin-bottom: 200px;
+ }
+
+ .container5 span {
+     color: aqua;
+     font-size: 60px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .container5 h1 {
+     /* padding: 30vh; */
+     font-size: 60px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(248, 83, 111);
+     text-align: center;
+ }
+
+ .icon10 i {
+
+     color: skyblue;
+     font-size: 30px;
+     border-radius: 50%;
+     border: 2px solid skyblue;
+     padding: 5px;
+ }
+
+ .icon10 i:hover {
+     background-color: skyblue;
+     color: white;
+ }
+
+ .icon10 {
+     margin-left: 44%;
+ }
+
+ .gets {
+     display: flex;
+     justify-content: center;
+     margin: 5%;
+ }
+
+ .get {
+     margin: 2%;
+ }
+
+ .get h3,
+ p {
+     line-height: 200%;
+ }
+
+ .hour {
+     margin: 2%
+ }
+
+ .line p {
+     border: 1px solid #000;
+     height: 80%;
+ }
+
+ .copyright {
+     text-align: center;
+ }
+
+ .copyright span {
+     color: #fd79d5;
+     font-size: 30px;
+ }
+
+
+
+
+
+
+
+
+
+ /* ----------------------------------media screen start -------------------------------------- */
+
+
+
+@media screen and (max-width:992px){
+    
+
+
+     * {
+     margin: 0%;
+     padding: 0%;
+     box-sizing: border-box;
+ }
+
+ .header li {
+     float: left;
+     list-style: none;
+     padding: 7px;
+     color: white;
+ }
+
+ .header ul {
+     margin-left: 60px;
+ }
+
+ .container {
+     background-color: rgb(255, 33, 63);
+     height: 50px;
+ }
+
+ .icon {
+     padding-left: 1000px;
+ }
+
+ .icon i {
+     padding: 10px;
+     color: white;
+ }
+
+ .wrapper1 {
+     background-image: url(./img/carousel-1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 109vh;
+ }
+
+ .navibar a {
+     padding: 13px;
+     list-style: none;
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifq2a;
+     font-weight: 200;
+     font-size: 16px;
+     padding-top: -29px;
+ }
+
+ .navibar a:hover {
+     color: rgb(255, 102, 128);
+ }
+
+ .navibar a span {
+     color: rgb(255, 102, 128);
+ }
+
+ .navibar {
+     display: flex;
+     justify-content: space-between;
+     background-color: white;
+     font-size: x-large;
+     border-radius: 50px;
+     width: 700px;
+     margin-left: 75px;
+ }
+
+ .navibar h1 span {
+
+     color: aqua;
+     font-size: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .navibar h1 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(236, 67, 95);
+     margin: 7px 0px;
+ }
+
+ .text {
+     text-align: center;
+     padding-top: 200px;
+ }
+
+ .text p {
+     color: aliceblue;
+     font-weight: 900;
+     font-size: 30px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding-bottom: 20px;
+ }
+
+ .text h1 {
+     color: aliceblue;
+     font-weight: 900;
+     font-size: 70px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .text button {
+     background-color: rgb(252, 82, 111);
+     color: white;
+     padding: 15px;
+     border-radius: 50px;
+     border-style: none;
+     width: 200px;
+ }
+
+ .container1 {
+     padding-bottom: 150px;
+ }
+
+ .traditional {
+     width: 10;
+     padding-top: 100px;
+     padding-bottom: 60px;
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: 900;
+     text-align: center;
+ }
+
+ .traditional hr {
+     margin-left: 500px;
+     margin-right: 500px;
+     border-width: 5px;
+     border-color: rgb(240, 106, 133);
+ }
+
+ .traditional h1 {
+     font-weight: 900;
+ }
+
+ .about {
+     display: flex;
+     justify-content: center;
+ }
+
+ .wrapper2 h1 {
+     text-align: center;
+     justify-content: center;
+     margin-left: 10px;
+ }
+
+ .about img {
+     width: 300px;
+     height: 400px;
+     border-radius: 10px;
+ }
+
+ .us h2 {
+     justify-content: center;
+     margin-left: 200px;
+     letter-spacing: 2px;
+     font-weight: 900;
+     font-size: 30px;
+     font-family: sans-serif;
+     padding: 10px;
+ }
+
+ .us p {
+     margin-left: 50px;
+     font-size: 25px;
+     letter-spacing: 1px;
+     font-weight: 800;
+     padding-bottom: 30px;
+ }
+
+ .us h4 {
+     letter-spacing: 1px;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     padding-left: 50px;
+ }
+
+ .feature {
+     justify-content: center;
+     margin-left: 50px;
+ }
+
+ .feature h2 {
+     text-align: center;
+     font-size: 30px;
+     font-weight: 900;
+     justify-content: center;
+     letter-spacing: 2px;
+     font-family: sans-serif;
+     padding: 10px;
+ }
+
+ .feature p {
+     margin-left: 5px;
+     letter-spacing: 1px;
+     font-weight: 500;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 20px;
+ }
+
+ .feature h3 {
+     font-family: sans-serif;
+     color: rgba(0, 0, 0, 0.685);
+ }
+
+ .feature h3 i {
+     color: rgb(0, 195, 255);
+     padding: 15px;
+     font-weight: bold;
+ }
+
+ .us button {
+     margin-left: 200px;
+     padding: 15px;
+     background-color: rgb(34, 185, 231);
+     color: white;
+     border-radius: 50px;
+     border-style: none;
+ }
+
+ .feature button {
+     margin-left: 100px;
+     padding: 15px;
+     background-color: rgb(255, 116, 209);
+     color: white;
+     border-radius: 50px;
+     border-style: none;
+ }
+
+}
+
+
+/* --------------------992end------------------------- */
+
+
+
+
+@media screen and (max-width:768){
+    
+}
+
+
+
+
+
+
+

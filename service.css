@@ -1,0 +1,51 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.best {
+    padding: 150px;
+
+}
+
+.best hr {
+    border-width: 5px;
+    border-color: rgb(240, 106, 133);
+    margin-right: 850PX;
+}
+
+.best h1 {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.ims {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.im1 img {
+    border: 15px solid white;
+    border-radius: 50%;
+    box-shadow: 1px 15px pink;
+}
+
+.im1 {
+    margin: 0px 60px;
+}
+
+.web {
+    margin: 40px 0px 0px 0px;
+}
+
+.web p {
+    padding: 10px;
+
+}
+
+.web a {
+    color: rgb(23, 205, 250);
+    margin-left: 50px;
+}
